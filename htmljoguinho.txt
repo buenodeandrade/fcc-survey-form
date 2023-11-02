@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Meu formulário</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Enquete do joguinho</h1>
+    <p id="description">Este formulário é parte do projeto de conclusão módulo de desenho responsivo de Web do Free Code Camp, desenvolvido por Felipe Bueno</p>
+    <form method="post" id="survey-form">
+      <fieldset>
+        <h2>Informações pessoais</h2>
+        <label id="name-label" for="name">Nome completo: <input id="name" type="text" placeholder="Fulano de Tal" required></label>
+        <label id="email-label" for="email">E-mail: <input id="email" type="email" placeholder="endereco@provedor.com" required></label>
+        <label id="number-label" for="number">Idade: <input id="number" type="number" pattern="[0-9]" min="13" max="120" placeholder="13+" required></label>
+        <label>Profissão: <select id="dropdown" name="profissao">
+          <option value="">Selecionar</option>
+          <option value="1">Padeiro</option>
+          <option value="2">Lenhador</option>
+          <option value="3">Frentista</option>
+          <option value="4">Go-go boy</option>
+          <option value="5">Outro</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <h2>Jogo preferido</h2>
+        <label for="csgo"><input id="csgo" name="jogo" class="inline" type="radio" value="1">Counter-Strike: Global Operation</label>
+        <label for="fifa"><input id="fifa" name="jogo" class="inline" type="radio" value="2">FIFA</label>
+        <label for="valorant"><input id="valorant" name="jogo" class="inline" type="radio" value="3">Valorant</label>
+      </fieldset>
+      <fieldset>
+        <h2>Interesse em tipos de jogo</h2>
+        <label for="fps"><input id="fps" name="nicho" class="inline" type="checkbox" value="1">FPS</label>
+        <label for="esportes"><input id="esportes" name="nicho" class="inline" type="checkbox" value="2">Esportes</label>
+        <label for="estrategia"><input id="estrategia" name="nicho" class="inline" type="checkbox" value="3">Estratégia</label>
+      </fieldset>
+      <fieldset>
+        <label for="setup">Descreva seu setup: <textarea id="setup" name="setup" rows="7" cols="33" type="textarea" placeholder="Processador, Memória RAM, Placa de víddeo, Armazenamento, etc."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" id="submit" value="Enviar">
+    </form>
+  </body>
+</html>
