@@ -1,7 +1,8 @@
 # Survey Form
 
 ## Preview
-![image](https://github.com/buenodeandrade/fcc-survey-form/assets/147355115/22766eb0-79e7-44ca-a52e-e874e1b4ed80)
+![image](https://github.com/buenodeandrade/fcc-survey-form/assets/147355115/25f913aa-2aae-4cda-8331-694d819bdb5e)
+
 ## Certification project required to earn the Responsive Web Design Developer certificate from [freeCodeCamp](https://www.freecodecamp.org/).
 Successfully completed on November 2, 2023, representing approximately 300 hours of work.
 
