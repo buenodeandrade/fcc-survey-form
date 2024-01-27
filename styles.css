@@ -9,9 +9,10 @@ body {
   }
   
   h1, h2, p {
-    margin: 1em;
+    margin: 1em auto;
     text-align: center;
-    width: 80vw;
+    max-width: 500px;
+    min-width: 300px;
   }
   
   form {
